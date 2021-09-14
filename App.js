@@ -8,10 +8,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
-function HomeScreen() {
+function HomeScreen({navigation}) {
   return (
     <View style={styles.container}>
-      <Home />
+      <Home navigation={navigation}/>
       {/* <Questions /> */}
     </View>
   );

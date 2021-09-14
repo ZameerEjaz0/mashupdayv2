@@ -17,7 +17,7 @@ const Home = ({navigation}) => {
                 
             /> 
             </View>
-            <TouchableOpacity onPress={() => navigation.navigate("questions")}>
+            <TouchableOpacity onPress={() => navigation.navigate("Questions")}>
                 <Text style={{textAlign: 'center'}}>Lets Start</Text>
             </TouchableOpacity>
         </View>

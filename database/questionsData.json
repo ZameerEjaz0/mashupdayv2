@@ -1,0 +1,23 @@
+[
+	{
+		"question": "What kind of change do you want to make?",
+		"answers" : [
+            "I want to consume more responsibly", 
+            "I want to live a greener lifestyle",
+            "I want to get involved in activism",
+            "I want to hold leaders accountable"
+        ],
+		"image": "..assets/change.png",
+		"name": "change"
+	},
+	{
+		"question" : "How much time can you spare?",
+		"answers" : ["5 minutes", "an hour", "a day"],
+		"name": "time"
+	},
+	{
+		"question" : "How much money do you want to spare?",
+		"answers" : ["None", "I want to spend a bit more", "I want to spend a lot"],
+		"name" : "money"
+	}
+]
